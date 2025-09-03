@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/patrol_node.dir/src/patrol.cpp.o[0m
+[100%] [32m[1mLinking CXX executable patrol_node[0m
+[100%] Built target patrol_node
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/lib/robot_patrol/patrol_node
+-- Set runtime path of "/home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/lib/robot_patrol/patrol_node" to ""
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol//launch
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol//launch/start_patrolling.launch.py
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/package_run_dependencies/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/parent_prefix_path/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/package.dsv
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/packages/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/package.xml

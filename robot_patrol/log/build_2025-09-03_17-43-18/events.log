@@ -1,0 +1,571 @@
+[0.000000] (-) TimerEvent: {}
+[0.000450] (robot_patrol) JobQueued: {'identifier': 'robot_patrol', 'dependencies': OrderedDict()}
+[0.000944] (robot_patrol) JobStarted: {'identifier': 'robot_patrol'}
+[0.099798] (-) TimerEvent: {}
+[0.105070] (robot_patrol) JobProgress: {'identifier': 'robot_patrol', 'progress': 'cmake'}
+[0.105239] (robot_patrol) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/citylab_project/robot_patrol', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol'], 'cwd': '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/robot_patrol:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/robot_patrol:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '951426'), ('SLOT_PREFIX', 'b79bd98a-7639-44d1-80ba-5c5b393dcf61'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25104'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/citylab_project'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.219321] (-) TimerEvent: {}
+[0.319611] (-) TimerEvent: {}
+[0.419858] (-) TimerEvent: {}
+[0.520137] (-) TimerEvent: {}
+[0.620419] (-) TimerEvent: {}
+[0.720682] (-) TimerEvent: {}
+[0.820947] (-) TimerEvent: {}
+[0.921211] (-) TimerEvent: {}
+[1.021471] (-) TimerEvent: {}
+[1.121723] (-) TimerEvent: {}
+[1.221977] (-) TimerEvent: {}
+[1.322219] (-) TimerEvent: {}
+[1.422475] (-) TimerEvent: {}
+[1.522742] (-) TimerEvent: {}
+[1.623011] (-) TimerEvent: {}
+[1.723265] (-) TimerEvent: {}
+[1.823512] (-) TimerEvent: {}
+[1.923781] (-) TimerEvent: {}
+[2.024049] (-) TimerEvent: {}
+[2.124326] (-) TimerEvent: {}
+[2.224589] (-) TimerEvent: {}
+[2.324844] (-) TimerEvent: {}
+[2.425096] (-) TimerEvent: {}
+[2.525352] (-) TimerEvent: {}
+[2.625603] (-) TimerEvent: {}
+[2.725841] (-) TimerEvent: {}
+[2.826084] (-) TimerEvent: {}
+[2.926755] (-) TimerEvent: {}
+[3.026992] (-) TimerEvent: {}
+[3.127226] (-) TimerEvent: {}
+[3.227463] (-) TimerEvent: {}
+[3.327699] (-) TimerEvent: {}
+[3.427942] (-) TimerEvent: {}
+[3.528179] (-) TimerEvent: {}
+[3.628445] (-) TimerEvent: {}
+[3.729158] (-) TimerEvent: {}
+[3.829399] (-) TimerEvent: {}
+[3.929632] (-) TimerEvent: {}
+[4.029862] (-) TimerEvent: {}
+[4.130096] (-) TimerEvent: {}
+[4.230338] (-) TimerEvent: {}
+[4.330578] (-) TimerEvent: {}
+[4.430819] (-) TimerEvent: {}
+[4.531036] (-) TimerEvent: {}
+[4.631257] (-) TimerEvent: {}
+[4.731480] (-) TimerEvent: {}
+[4.831702] (-) TimerEvent: {}
+[4.931939] (-) TimerEvent: {}
+[5.032198] (-) TimerEvent: {}
+[5.132470] (-) TimerEvent: {}
+[5.232708] (-) TimerEvent: {}
+[5.332940] (-) TimerEvent: {}
+[5.433183] (-) TimerEvent: {}
+[5.533404] (-) TimerEvent: {}
+[5.633639] (-) TimerEvent: {}
+[5.733897] (-) TimerEvent: {}
+[5.834134] (-) TimerEvent: {}
+[5.934381] (-) TimerEvent: {}
+[6.034629] (-) TimerEvent: {}
+[6.134885] (-) TimerEvent: {}
+[6.235134] (-) TimerEvent: {}
+[6.335383] (-) TimerEvent: {}
+[6.435637] (-) TimerEvent: {}
+[6.535885] (-) TimerEvent: {}
+[6.636128] (-) TimerEvent: {}
+[6.736743] (-) TimerEvent: {}
+[6.836998] (-) TimerEvent: {}
+[6.937289] (-) TimerEvent: {}
+[7.037568] (-) TimerEvent: {}
+[7.137835] (-) TimerEvent: {}
+[7.238097] (-) TimerEvent: {}
+[7.338364] (-) TimerEvent: {}
+[7.438643] (-) TimerEvent: {}
+[7.539258] (-) TimerEvent: {}
+[7.639522] (-) TimerEvent: {}
+[7.739781] (-) TimerEvent: {}
+[7.840033] (-) TimerEvent: {}
+[7.940312] (-) TimerEvent: {}
+[8.040598] (-) TimerEvent: {}
+[8.140874] (-) TimerEvent: {}
+[8.241133] (-) TimerEvent: {}
+[8.341408] (-) TimerEvent: {}
+[8.441668] (-) TimerEvent: {}
+[8.541926] (-) TimerEvent: {}
+[8.642200] (-) TimerEvent: {}
+[8.742493] (-) TimerEvent: {}
+[8.842779] (-) TimerEvent: {}
+[8.943057] (-) TimerEvent: {}
+[9.043319] (-) TimerEvent: {}
+[9.143563] (-) TimerEvent: {}
+[9.243843] (-) TimerEvent: {}
+[9.344126] (-) TimerEvent: {}
+[9.444434] (-) TimerEvent: {}
+[9.544719] (-) TimerEvent: {}
+[9.644995] (-) TimerEvent: {}
+[9.745267] (-) TimerEvent: {}
+[9.845526] (-) TimerEvent: {}
+[9.945784] (-) TimerEvent: {}
+[10.046028] (-) TimerEvent: {}
+[10.146278] (-) TimerEvent: {}
+[10.246747] (-) TimerEvent: {}
+[10.346987] (-) TimerEvent: {}
+[10.447251] (-) TimerEvent: {}
+[10.547531] (-) TimerEvent: {}
+[10.647789] (-) TimerEvent: {}
+[10.748047] (-) TimerEvent: {}
+[10.848311] (-) TimerEvent: {}
+[10.948587] (-) TimerEvent: {}
+[11.049216] (-) TimerEvent: {}
+[11.149468] (-) TimerEvent: {}
+[11.249712] (-) TimerEvent: {}
+[11.349962] (-) TimerEvent: {}
+[11.450249] (-) TimerEvent: {}
+[11.550519] (-) TimerEvent: {}
+[11.650781] (-) TimerEvent: {}
+[11.751039] (-) TimerEvent: {}
+[11.851307] (-) TimerEvent: {}
+[11.951850] (-) TimerEvent: {}
+[12.052145] (-) TimerEvent: {}
+[12.152445] (-) TimerEvent: {}
+[12.252726] (-) TimerEvent: {}
+[12.353001] (-) TimerEvent: {}
+[12.453284] (-) TimerEvent: {}
+[12.553556] (-) TimerEvent: {}
+[12.653828] (-) TimerEvent: {}
+[12.754093] (-) TimerEvent: {}
+[12.854356] (-) TimerEvent: {}
+[12.954633] (-) TimerEvent: {}
+[13.054915] (-) TimerEvent: {}
+[13.155202] (-) TimerEvent: {}
+[13.255492] (-) TimerEvent: {}
+[13.355794] (-) TimerEvent: {}
+[13.456086] (-) TimerEvent: {}
+[13.556374] (-) TimerEvent: {}
+[13.656671] (-) TimerEvent: {}
+[13.756966] (-) TimerEvent: {}
+[13.857235] (-) TimerEvent: {}
+[13.957512] (-) TimerEvent: {}
+[14.057783] (-) TimerEvent: {}
+[14.158054] (-) TimerEvent: {}
+[14.258318] (-) TimerEvent: {}
+[14.358579] (-) TimerEvent: {}
+[14.428313] (robot_patrol) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[14.458665] (-) TimerEvent: {}
+[14.559241] (-) TimerEvent: {}
+[14.659476] (-) TimerEvent: {}
+[14.759731] (-) TimerEvent: {}
+[14.859989] (-) TimerEvent: {}
+[14.960235] (-) TimerEvent: {}
+[15.060523] (-) TimerEvent: {}
+[15.160814] (-) TimerEvent: {}
+[15.261089] (-) TimerEvent: {}
+[15.361367] (-) TimerEvent: {}
+[15.461639] (-) TimerEvent: {}
+[15.561910] (-) TimerEvent: {}
+[15.662172] (-) TimerEvent: {}
+[15.762432] (-) TimerEvent: {}
+[15.862692] (-) TimerEvent: {}
+[15.962966] (-) TimerEvent: {}
+[16.063227] (-) TimerEvent: {}
+[16.163491] (-) TimerEvent: {}
+[16.264064] (-) TimerEvent: {}
+[16.364337] (-) TimerEvent: {}
+[16.464617] (-) TimerEvent: {}
+[16.564910] (-) TimerEvent: {}
+[16.665200] (-) TimerEvent: {}
+[16.765485] (-) TimerEvent: {}
+[16.865767] (-) TimerEvent: {}
+[16.966066] (-) TimerEvent: {}
+[17.066357] (-) TimerEvent: {}
+[17.166645] (-) TimerEvent: {}
+[17.266921] (-) TimerEvent: {}
+[17.367203] (-) TimerEvent: {}
+[17.467491] (-) TimerEvent: {}
+[17.567778] (-) TimerEvent: {}
+[17.668059] (-) TimerEvent: {}
+[17.768349] (-) TimerEvent: {}
+[17.869113] (-) TimerEvent: {}
+[17.969418] (-) TimerEvent: {}
+[18.069705] (-) TimerEvent: {}
+[18.170004] (-) TimerEvent: {}
+[18.270295] (-) TimerEvent: {}
+[18.370584] (-) TimerEvent: {}
+[18.470881] (-) TimerEvent: {}
+[18.571177] (-) TimerEvent: {}
+[18.671606] (-) TimerEvent: {}
+[18.771906] (-) TimerEvent: {}
+[18.872203] (-) TimerEvent: {}
+[18.972504] (-) TimerEvent: {}
+[19.072784] (-) TimerEvent: {}
+[19.173084] (-) TimerEvent: {}
+[19.175813] (robot_patrol) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[19.273195] (-) TimerEvent: {}
+[19.373454] (-) TimerEvent: {}
+[19.474082] (-) TimerEvent: {}
+[19.574369] (-) TimerEvent: {}
+[19.674679] (-) TimerEvent: {}
+[19.704397] (robot_patrol) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.774792] (-) TimerEvent: {}
+[19.875083] (-) TimerEvent: {}
+[19.975379] (-) TimerEvent: {}
+[20.075684] (-) TimerEvent: {}
+[20.083868] (robot_patrol) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.093722] (robot_patrol) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.096537] (robot_patrol) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.175787] (-) TimerEvent: {}
+[20.191029] (robot_patrol) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.197215] (robot_patrol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.275883] (-) TimerEvent: {}
+[20.376158] (-) TimerEvent: {}
+[20.476779] (-) TimerEvent: {}
+[20.577085] (-) TimerEvent: {}
+[20.578377] (robot_patrol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.586514] (robot_patrol) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.586734] (robot_patrol) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.587203] (robot_patrol) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.604017] (robot_patrol) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[20.677201] (-) TimerEvent: {}
+[20.777493] (-) TimerEvent: {}
+[20.877798] (-) TimerEvent: {}
+[20.978096] (-) TimerEvent: {}
+[21.078402] (-) TimerEvent: {}
+[21.178715] (-) TimerEvent: {}
+[21.279005] (-) TimerEvent: {}
+[21.379311] (-) TimerEvent: {}
+[21.466953] (robot_patrol) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[21.479418] (-) TimerEvent: {}
+[21.579702] (-) TimerEvent: {}
+[21.679971] (-) TimerEvent: {}
+[21.780255] (-) TimerEvent: {}
+[21.800848] (robot_patrol) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[21.880345] (-) TimerEvent: {}
+[21.980632] (-) TimerEvent: {}
+[22.080913] (-) TimerEvent: {}
+[22.165410] (robot_patrol) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.180999] (-) TimerEvent: {}
+[22.187728] (robot_patrol) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[22.219724] (robot_patrol) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[22.262620] (robot_patrol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.281083] (-) TimerEvent: {}
+[22.316027] (robot_patrol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.381181] (-) TimerEvent: {}
+[22.481918] (-) TimerEvent: {}
+[22.582185] (-) TimerEvent: {}
+[22.682462] (-) TimerEvent: {}
+[22.782734] (-) TimerEvent: {}
+[22.882997] (-) TimerEvent: {}
+[22.917968] (robot_patrol) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[22.933047] (robot_patrol) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[22.983082] (-) TimerEvent: {}
+[23.083324] (-) TimerEvent: {}
+[23.183599] (-) TimerEvent: {}
+[23.284379] (-) TimerEvent: {}
+[23.384661] (-) TimerEvent: {}
+[23.484941] (-) TimerEvent: {}
+[23.585226] (-) TimerEvent: {}
+[23.685504] (-) TimerEvent: {}
+[23.785782] (-) TimerEvent: {}
+[23.886062] (-) TimerEvent: {}
+[23.986337] (-) TimerEvent: {}
+[24.086614] (-) TimerEvent: {}
+[24.186906] (-) TimerEvent: {}
+[24.287193] (-) TimerEvent: {}
+[24.349192] (robot_patrol) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[24.387300] (-) TimerEvent: {}
+[24.398077] (robot_patrol) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[24.473403] (robot_patrol) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.487376] (-) TimerEvent: {}
+[24.587617] (-) TimerEvent: {}
+[24.687899] (-) TimerEvent: {}
+[24.788178] (-) TimerEvent: {}
+[24.872623] (robot_patrol) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[24.888259] (-) TimerEvent: {}
+[24.988507] (-) TimerEvent: {}
+[25.089236] (-) TimerEvent: {}
+[25.189523] (-) TimerEvent: {}
+[25.289813] (-) TimerEvent: {}
+[25.390104] (-) TimerEvent: {}
+[25.490384] (-) TimerEvent: {}
+[25.590661] (-) TimerEvent: {}
+[25.690944] (-) TimerEvent: {}
+[25.791226] (-) TimerEvent: {}
+[25.891776] (-) TimerEvent: {}
+[25.992066] (-) TimerEvent: {}
+[26.092359] (-) TimerEvent: {}
+[26.192651] (-) TimerEvent: {}
+[26.292936] (-) TimerEvent: {}
+[26.346652] (robot_patrol) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[26.346881] (robot_patrol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[26.393045] (-) TimerEvent: {}
+[26.433282] (robot_patrol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[26.434326] (robot_patrol) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[26.493149] (-) TimerEvent: {}
+[26.593439] (-) TimerEvent: {}
+[26.694018] (-) TimerEvent: {}
+[26.794303] (-) TimerEvent: {}
+[26.894597] (-) TimerEvent: {}
+[26.994887] (-) TimerEvent: {}
+[27.095171] (-) TimerEvent: {}
+[27.195445] (-) TimerEvent: {}
+[27.295728] (-) TimerEvent: {}
+[27.395880] (robot_patrol) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)\n'}
+[27.396057] (-) TimerEvent: {}
+[27.460658] (robot_patrol) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/sensor_msgs/share/sensor_msgs/cmake)\n'}
+[27.496158] (-) TimerEvent: {}
+[27.576345] (robot_patrol) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/nav_msgs/share/nav_msgs/cmake)\n'}
+[27.596235] (-) TimerEvent: {}
+[27.696475] (-) TimerEvent: {}
+[27.796736] (-) TimerEvent: {}
+[27.896998] (-) TimerEvent: {}
+[27.997257] (-) TimerEvent: {}
+[28.015886] (robot_patrol) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[28.097353] (-) TimerEvent: {}
+[28.183870] (robot_patrol) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[28.184073] (robot_patrol) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[28.184150] (robot_patrol) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[28.187218] (robot_patrol) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[28.189783] (robot_patrol) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[28.191783] (robot_patrol) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[28.197418] (-) TimerEvent: {}
+[28.198292] (robot_patrol) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[28.198405] (robot_patrol) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[28.200559] (robot_patrol) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[28.204642] (robot_patrol) StdoutLine: {'line': b'-- Configuring done\n'}
+[28.219926] (robot_patrol) StdoutLine: {'line': b'-- Generating done\n'}
+[28.221756] (robot_patrol) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol\n'}
+[28.231370] (robot_patrol) CommandEnded: {'returncode': 0}
+[28.231935] (robot_patrol) JobProgress: {'identifier': 'robot_patrol', 'progress': 'build'}
+[28.232872] (robot_patrol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/robot_patrol:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/robot_patrol:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '951426'), ('SLOT_PREFIX', 'b79bd98a-7639-44d1-80ba-5c5b393dcf61'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25104'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/citylab_project'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[28.295661] (robot_patrol) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/patrol_node.dir/src/patrol.cpp.o\x1b[0m\n'}
+[28.297513] (-) TimerEvent: {}
+[28.397764] (-) TimerEvent: {}
+[28.497992] (-) TimerEvent: {}
+[28.598226] (-) TimerEvent: {}
+[28.698494] (-) TimerEvent: {}
+[28.798765] (-) TimerEvent: {}
+[28.899040] (-) TimerEvent: {}
+[28.999304] (-) TimerEvent: {}
+[29.099562] (-) TimerEvent: {}
+[29.199828] (-) TimerEvent: {}
+[29.300092] (-) TimerEvent: {}
+[29.400372] (-) TimerEvent: {}
+[29.500645] (-) TimerEvent: {}
+[29.600916] (-) TimerEvent: {}
+[29.701179] (-) TimerEvent: {}
+[29.801442] (-) TimerEvent: {}
+[29.901710] (-) TimerEvent: {}
+[30.002125] (-) TimerEvent: {}
+[30.102537] (-) TimerEvent: {}
+[30.202829] (-) TimerEvent: {}
+[30.303119] (-) TimerEvent: {}
+[30.403428] (-) TimerEvent: {}
+[30.503732] (-) TimerEvent: {}
+[30.604020] (-) TimerEvent: {}
+[30.704298] (-) TimerEvent: {}
+[30.804593] (-) TimerEvent: {}
+[30.904883] (-) TimerEvent: {}
+[31.005170] (-) TimerEvent: {}
+[31.105435] (-) TimerEvent: {}
+[31.205709] (-) TimerEvent: {}
+[31.305976] (-) TimerEvent: {}
+[31.406245] (-) TimerEvent: {}
+[31.506519] (-) TimerEvent: {}
+[31.606807] (-) TimerEvent: {}
+[31.707085] (-) TimerEvent: {}
+[31.807365] (-) TimerEvent: {}
+[31.907655] (-) TimerEvent: {}
+[32.007958] (-) TimerEvent: {}
+[32.108253] (-) TimerEvent: {}
+[32.208565] (-) TimerEvent: {}
+[32.308845] (-) TimerEvent: {}
+[32.409118] (-) TimerEvent: {}
+[32.509403] (-) TimerEvent: {}
+[32.609675] (-) TimerEvent: {}
+[32.709952] (-) TimerEvent: {}
+[32.810227] (-) TimerEvent: {}
+[32.910505] (-) TimerEvent: {}
+[33.010778] (-) TimerEvent: {}
+[33.111047] (-) TimerEvent: {}
+[33.211766] (-) TimerEvent: {}
+[33.312035] (-) TimerEvent: {}
+[33.412304] (-) TimerEvent: {}
+[33.512586] (-) TimerEvent: {}
+[33.612851] (-) TimerEvent: {}
+[33.713132] (-) TimerEvent: {}
+[33.813421] (-) TimerEvent: {}
+[33.913697] (-) TimerEvent: {}
+[34.014242] (-) TimerEvent: {}
+[34.114508] (-) TimerEvent: {}
+[34.214792] (-) TimerEvent: {}
+[34.315064] (-) TimerEvent: {}
+[34.415353] (-) TimerEvent: {}
+[34.515651] (-) TimerEvent: {}
+[34.615929] (-) TimerEvent: {}
+[34.716195] (-) TimerEvent: {}
+[34.816646] (-) TimerEvent: {}
+[34.916925] (-) TimerEvent: {}
+[35.017210] (-) TimerEvent: {}
+[35.117474] (-) TimerEvent: {}
+[35.217735] (-) TimerEvent: {}
+[35.318011] (-) TimerEvent: {}
+[35.418269] (-) TimerEvent: {}
+[35.518535] (-) TimerEvent: {}
+[35.619185] (-) TimerEvent: {}
+[35.719466] (-) TimerEvent: {}
+[35.819741] (-) TimerEvent: {}
+[35.920004] (-) TimerEvent: {}
+[36.020268] (-) TimerEvent: {}
+[36.120549] (-) TimerEvent: {}
+[36.220813] (-) TimerEvent: {}
+[36.321079] (-) TimerEvent: {}
+[36.421675] (-) TimerEvent: {}
+[36.521964] (-) TimerEvent: {}
+[36.622253] (-) TimerEvent: {}
+[36.722522] (-) TimerEvent: {}
+[36.822798] (-) TimerEvent: {}
+[36.923138] (-) TimerEvent: {}
+[37.023420] (-) TimerEvent: {}
+[37.123707] (-) TimerEvent: {}
+[37.224280] (-) TimerEvent: {}
+[37.324595] (-) TimerEvent: {}
+[37.424879] (-) TimerEvent: {}
+[37.525155] (-) TimerEvent: {}
+[37.625429] (-) TimerEvent: {}
+[37.725701] (-) TimerEvent: {}
+[37.825977] (-) TimerEvent: {}
+[37.926224] (-) TimerEvent: {}
+[38.026519] (-) TimerEvent: {}
+[38.126796] (-) TimerEvent: {}
+[38.227070] (-) TimerEvent: {}
+[38.327335] (-) TimerEvent: {}
+[38.427592] (-) TimerEvent: {}
+[38.527848] (-) TimerEvent: {}
+[38.628106] (-) TimerEvent: {}
+[38.728412] (-) TimerEvent: {}
+[38.828692] (-) TimerEvent: {}
+[38.928975] (-) TimerEvent: {}
+[39.029264] (-) TimerEvent: {}
+[39.129540] (-) TimerEvent: {}
+[39.229816] (-) TimerEvent: {}
+[39.330116] (-) TimerEvent: {}
+[39.430393] (-) TimerEvent: {}
+[39.530684] (-) TimerEvent: {}
+[39.630974] (-) TimerEvent: {}
+[39.731265] (-) TimerEvent: {}
+[39.831556] (-) TimerEvent: {}
+[39.931841] (-) TimerEvent: {}
+[40.032133] (-) TimerEvent: {}
+[40.132438] (-) TimerEvent: {}
+[40.232722] (-) TimerEvent: {}
+[40.333005] (-) TimerEvent: {}
+[40.433305] (-) TimerEvent: {}
+[40.533601] (-) TimerEvent: {}
+[40.633895] (-) TimerEvent: {}
+[40.734189] (-) TimerEvent: {}
+[40.834481] (-) TimerEvent: {}
+[40.934782] (-) TimerEvent: {}
+[41.035085] (-) TimerEvent: {}
+[41.135381] (-) TimerEvent: {}
+[41.235675] (-) TimerEvent: {}
+[41.335968] (-) TimerEvent: {}
+[41.436272] (-) TimerEvent: {}
+[41.536592] (-) TimerEvent: {}
+[41.636892] (-) TimerEvent: {}
+[41.737197] (-) TimerEvent: {}
+[41.837513] (-) TimerEvent: {}
+[41.937815] (-) TimerEvent: {}
+[42.038113] (-) TimerEvent: {}
+[42.138399] (-) TimerEvent: {}
+[42.238704] (-) TimerEvent: {}
+[42.339035] (-) TimerEvent: {}
+[42.439324] (-) TimerEvent: {}
+[42.539612] (-) TimerEvent: {}
+[42.639915] (-) TimerEvent: {}
+[42.740222] (-) TimerEvent: {}
+[42.840576] (-) TimerEvent: {}
+[42.940870] (-) TimerEvent: {}
+[43.041163] (-) TimerEvent: {}
+[43.141453] (-) TimerEvent: {}
+[43.241741] (-) TimerEvent: {}
+[43.342027] (-) TimerEvent: {}
+[43.442336] (-) TimerEvent: {}
+[43.542675] (-) TimerEvent: {}
+[43.642960] (-) TimerEvent: {}
+[43.743261] (-) TimerEvent: {}
+[43.843562] (-) TimerEvent: {}
+[43.943855] (-) TimerEvent: {}
+[44.044163] (-) TimerEvent: {}
+[44.144518] (-) TimerEvent: {}
+[44.244792] (-) TimerEvent: {}
+[44.345046] (-) TimerEvent: {}
+[44.445299] (-) TimerEvent: {}
+[44.545560] (-) TimerEvent: {}
+[44.645831] (-) TimerEvent: {}
+[44.746105] (-) TimerEvent: {}
+[44.846918] (-) TimerEvent: {}
+[44.947274] (-) TimerEvent: {}
+[45.047547] (-) TimerEvent: {}
+[45.147827] (-) TimerEvent: {}
+[45.248115] (-) TimerEvent: {}
+[45.348438] (-) TimerEvent: {}
+[45.448723] (-) TimerEvent: {}
+[45.549258] (-) TimerEvent: {}
+[45.649541] (-) TimerEvent: {}
+[45.749820] (-) TimerEvent: {}
+[45.850100] (-) TimerEvent: {}
+[45.950374] (-) TimerEvent: {}
+[46.050655] (-) TimerEvent: {}
+[46.150946] (-) TimerEvent: {}
+[46.251236] (-) TimerEvent: {}
+[46.351515] (-) TimerEvent: {}
+[46.451808] (-) TimerEvent: {}
+[46.552092] (-) TimerEvent: {}
+[46.652339] (-) TimerEvent: {}
+[46.752625] (-) TimerEvent: {}
+[46.852901] (-) TimerEvent: {}
+[46.953205] (-) TimerEvent: {}
+[47.053494] (-) TimerEvent: {}
+[47.153783] (-) TimerEvent: {}
+[47.254056] (-) TimerEvent: {}
+[47.354335] (-) TimerEvent: {}
+[47.454642] (-) TimerEvent: {}
+[47.555006] (-) TimerEvent: {}
+[47.655363] (-) TimerEvent: {}
+[47.755726] (-) TimerEvent: {}
+[47.856084] (-) TimerEvent: {}
+[47.956775] (-) TimerEvent: {}
+[47.981720] (robot_patrol) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable patrol_node\x1b[0m\n'}
+[48.056878] (-) TimerEvent: {}
+[48.157167] (-) TimerEvent: {}
+[48.257460] (-) TimerEvent: {}
+[48.357752] (-) TimerEvent: {}
+[48.458038] (-) TimerEvent: {}
+[48.558320] (-) TimerEvent: {}
+[48.658603] (-) TimerEvent: {}
+[48.758887] (-) TimerEvent: {}
+[48.788621] (robot_patrol) StdoutLine: {'line': b'[100%] Built target patrol_node\n'}
+[48.800757] (robot_patrol) CommandEnded: {'returncode': 0}
+[48.847762] (robot_patrol) JobProgress: {'identifier': 'robot_patrol', 'progress': 'install'}
+[48.858270] (robot_patrol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol'], 'cwd': '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/src/citylab_project/robot_patrol/build/robot_patrol'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/robot_patrol:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/robot_patrol:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '951426'), ('SLOT_PREFIX', 'b79bd98a-7639-44d1-80ba-5c5b393dcf61'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25104'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/citylab_project'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[48.860024] (-) TimerEvent: {}
+[48.868242] (robot_patrol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.868509] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/lib/robot_patrol/patrol_node\n'}
+[48.873563] (robot_patrol) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/lib/robot_patrol/patrol_node" to ""\n'}
+[48.874552] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol//launch\n'}
+[48.874733] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol//launch/start_patrolling.launch.py\n'}
+[48.874856] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/package_run_dependencies/robot_patrol\n'}
+[48.875002] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/parent_prefix_path/robot_patrol\n'}
+[48.875130] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.sh\n'}
+[48.875229] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.dsv\n'}
+[48.875363] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/path.sh\n'}
+[48.875467] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/environment/path.dsv\n'}
+[48.875626] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.bash\n'}
+[48.875739] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.sh\n'}
+[48.875877] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.zsh\n'}
+[48.876016] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/local_setup.dsv\n'}
+[48.876215] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/package.dsv\n'}
+[48.876487] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/ament_index/resource_index/packages/robot_patrol\n'}
+[48.876735] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig.cmake\n'}
+[48.876908] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig-version.cmake\n'}
+[48.877116] (robot_patrol) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/citylab_project/robot_patrol/install/robot_patrol/share/robot_patrol/package.xml\n'}
+[48.878523] (robot_patrol) CommandEnded: {'returncode': 0}
+[48.960343] (-) TimerEvent: {}
+[48.973053] (robot_patrol) JobEnded: {'identifier': 'robot_patrol', 'rc': 0}
+[48.973769] (-) EventReactorShutdown: {}

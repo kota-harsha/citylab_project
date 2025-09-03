@@ -39,7 +39,7 @@ class Patrol : public rclcpp::Node {
             int front_end = 5 * num_readings / 8;
 
             for (int i = front_start; i <= front_end; i++) {
-                if (data->ranges[i] < 0.35 && data->ranges[i] > data->range_min) {
+                if (data->ranges[i] < 0.35 && data->ranges[i] >= data->range_min && data->ranges[i] <= data->range_max && std::isfinite(data->ranges[i])) {
                     obstacle_detected = true;
                     // RCLCPP_INFO(this->get_logger(), "Obstacle_Detected");
                     break;
@@ -53,8 +53,8 @@ class Patrol : public rclcpp::Node {
                 // int start_index = 0;
                 // int end_index   = (int)data->ranges.size()-1;
 
-                float max_dist = -1.0;
-                int best_index = front_start;
+                float max_dist = 0.0;
+                int best_index = 0;
 
                 // RCLCPP_INFO(this->get_logger(), "Data Ranges start (Left): %f", data->ranges[front_start]);
                 // RCLCPP_INFO(this->get_logger(), "Data Ranges end (Right): %f", data->ranges[front_end]);
@@ -85,7 +85,7 @@ class Patrol : public rclcpp::Node {
                 }
                 */
 
-                this->direction_ = (data->angle_min) + best_index * data->angle_increment;
+                this->direction_ = (data->angle_min) + (best_index * data->angle_increment);
                 // RCLCPP_INFO(this->get_logger(), "Direction: %f", direction_);
 
             }
