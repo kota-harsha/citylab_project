@@ -6,13 +6,19 @@
 class Patrol : public rclcpp::Node {
 public:
     Patrol() : Node("patrol_node"), direction_(0.0) {
+<<<<<<< HEAD
         // Create subscriber and publisher
+=======
+>>>>>>> real-robot
         laser_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
             "/scan", 10, std::bind(&Patrol::laser_callback, this, std::placeholders::_1));
         
         patrol_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
         
+<<<<<<< HEAD
         // Create timer for 10Hz control loop
+=======
+>>>>>>> real-robot
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(100),
             std::bind(&Patrol::control_callback, this));
@@ -47,10 +53,16 @@ private:
     bool obstacle_ahead() {
         if (front_scan_.empty()) return false;
         
+<<<<<<< HEAD
         // Check front 60° (-30° to +30°) for obstacles
         int scan_size = front_scan_.size();
         int center = scan_size / 2;
         int check_width = scan_size / 6;  // 60° out of 180°
+=======
+        int scan_size = front_scan_.size();
+        int center = scan_size / 2;
+        int check_width = scan_size / 6;
+>>>>>>> real-robot
         
         int start = center - check_width;
         int end = center + check_width;
@@ -71,36 +83,57 @@ private:
             return;
         }
         
+<<<<<<< HEAD
         // Find direction with maximum distance
         double max_distance = 0.0;
         int best_index = front_scan_.size() / 2;  // Default to center
         
         for (size_t i = 0; i < front_scan_.size(); i++) {
+=======
+        double max_distance = 0.0;
+        int best_index = front_scan_.size() / 2;
+        
+        for (size_t i = 0; i < (front_scan_.size() - 1); i++) {
+>>>>>>> real-robot
             if (std::isfinite(front_scan_[i]) && front_scan_[i] > max_distance) {
                 max_distance = front_scan_[i];
                 best_index = i;
             }
         }
         
+<<<<<<< HEAD
         // Convert index to angle
         direction_ = -M_PI_2 + best_index * angle_increment_;
         
         // Limit to front hemisphere
+=======
+        direction_ = -M_PI_2 + best_index * angle_increment_;
+        
+>>>>>>> real-robot
         direction_ = std::max(-M_PI_2, std::min(M_PI_2, direction_));
     }
 
     void control_callback() {
         auto twist_msg = geometry_msgs::msg::Twist();
         
+<<<<<<< HEAD
         // Always move forward
         twist_msg.linear.x = 0.1;
         
         // Check for obstacles and set angular velocity
+=======
+        twist_msg.linear.x = 0.1;
+        
+>>>>>>> real-robot
         if (obstacle_ahead()) {
             find_safe_direction();
             twist_msg.angular.z = direction_ / 2.0;
         } else {
+<<<<<<< HEAD
             twist_msg.angular.z = 0.0;  // Go straight
+=======
+            twist_msg.angular.z = 0.0;
+>>>>>>> real-robot
         }
         
         patrol_pub_->publish(twist_msg);
