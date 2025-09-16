@@ -4,13 +4,10 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-<<<<<<< HEAD
         - /Odometry1
-=======
         - /Global Options1
         - /Odometry1
         - /Odometry1/Shape1
->>>>>>> real-robot
       Splitter Ratio: 0.5
     Tree Height: 548
   - Class: rviz_common/Selection
@@ -52,8 +49,6 @@ Visualization Manager:
       Plane Cell Count: 50
       Reference Frame: <Fixed Frame>
       Value: true
-<<<<<<< HEAD
-=======
     - Class: rviz_default_plugins/Axes
       Enabled: true
       Length: 2.5
@@ -61,7 +56,6 @@ Visualization Manager:
       Radius: 0.009999999776482582
       Reference Frame: <Fixed Frame>
       Value: true
->>>>>>> real-robot
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
@@ -236,7 +230,6 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /odom
       Value: true
-<<<<<<< HEAD
     - Class: rviz_default_plugins/Axes
       Enabled: true
       Length: 2.5
@@ -244,8 +237,6 @@ Visualization Manager:
       Radius: 0.009999999776482582
       Reference Frame: <Fixed Frame>
       Value: true
-=======
->>>>>>> real-robot
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48

@@ -48,12 +48,12 @@ ament_target_dependencies(patrol_node rclcpp std_msgs geometry_msgs nav_msgs sen
 add_executable(direction_service src/direction_service.cpp)
 ament_target_dependencies(direction_service rclcpp sensor_msgs)
 
-<<<<<<< HEAD
 install(DIRECTORY
   launch
   rviz
-  DESTINATION share/${PROJECT_NAME}/
-=======
+  DESTINATION share/${PROJECT_NAME}
+)
+
 add_executable(test_service src/test_service.cpp)
 ament_target_dependencies(test_service rclcpp sensor_msgs)
 
@@ -71,7 +71,6 @@ install(TARGETS
   test_service  
   patrol_with_service
   DESTINATION lib/${PROJECT_NAME}
->>>>>>> real-robot
 )
 
 install(DIRECTORY
